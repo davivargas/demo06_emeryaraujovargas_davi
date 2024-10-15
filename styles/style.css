@@ -1,1 +1,76 @@
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
 
+/* New Color Palette: 
+* Black olive (Primary): #3F3F37 (canvas background) 
+* Dutch white (text): #D6D6B1 
+* Drab dark brown (Accent): #494331
+* Battleship gray (Secondary): #878472 
+* Flame (some borders): #DE541E. 
+*/
+
+.bg-info {
+    background-color: #3F3F37 !important;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #878472;  
+}
+
+.btn-info {
+    color: #D6D6B1;            /* info button for contrast */
+    background-color: #494331; /* button background */
+    border-color: #DE541E;     /* button border */
+}
+
+.btn-primary {
+    color: #D6D6B1;            /* Lightest shade for text */
+    font-size: 150%;
+    background-color: #3F3F37; /* Dark green for primary button background */
+    border-color: #DE541E;     /* Reddish-brown for border to use as accent */
+    border-width: thick;
+}
+
+body {
+    background-color: #878472;
+}
+
+.navbar-brand{
+    font-family: 'Caveat', cursive;
+    font-size: 2.25rem;
+}
+
+/* Custom styles for dropdown to match the new color palette */
+
+/* Style for the dropdown button */
+.btn-secondary {
+    color: #D6D6B1;
+    background-color: #3F3F37;
+    border-color: #DE541E;
+}
+
+/* Change dropdown button hover/focus styles */
+.btn-secondary:hover, .btn-secondary:focus {
+    color: #D6D6B1;
+    background-color: #878472;
+    border-color: #494331;
+}
+
+/* Style for the dropdown menu */
+.dropdown-menu {
+    background-color: #D6D6B1;
+}
+
+/* Style for dropdown items */
+.dropdown-item {
+    color: #3F3F37;
+}
+
+/* Style for dropdown item hover */
+.dropdown-item:hover, .dropdown-item:focus {
+    color: #D6D6B1;
+    background-color: #878472;
+}
